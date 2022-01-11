@@ -47,14 +47,14 @@
 // WORKSHOP
 
 
-// CAN NAVIGATE TO A PAGE
+// CAN NAVIGATE TO AN EXISTING PAGE
 
-it("Can navigate to a page", () => {
+it("Can navigate to an existing page", () => {
   // fails
   // cy.visit("localhost:3333/abou");
 
   // works
-  cy.visit("localhost:3333/about");
+  cy.visit("about");
 });
 
 
